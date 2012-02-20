@@ -14,7 +14,12 @@ namespace HelloWorld
 
         public string SayHello(string name)
         {
-            return "Hello, " + name;
+            return Greet("Hello", name);
+        }
+
+        public string Greet(string greeting, string name)
+        {
+            return greeting + ", " + name;
         }
     }
 }
