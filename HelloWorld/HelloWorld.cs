@@ -9,7 +9,12 @@ namespace HelloWorld
     {
         public string SayHelloWorld()
         {
-            return "Hello, World";
+            return SayHello("World");
+        }
+
+        public string SayHello(string name)
+        {
+            return "Hello, " + name;
         }
     }
 }
