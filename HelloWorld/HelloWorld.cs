@@ -7,9 +7,9 @@ namespace HelloWorld
 {
     public class HelloWorld
     {
-        public string HelloWorld()
+        public string SayHelloWorld()
         {
-            return "Hello World";
+            return "Hello, World";
         }
     }
 }
