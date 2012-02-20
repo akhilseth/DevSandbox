@@ -11,5 +11,10 @@ namespace HelloWorld
         {
             return "Hello, World";
         }
+
+        public string SayHello(string name)
+        {
+            return "Hello, " + name;
+        }
     }
 }
