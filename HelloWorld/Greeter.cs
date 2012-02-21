@@ -18,9 +18,8 @@ namespace HelloWorld
 
         public string Greet(string name)
         {
-            return _exclamation
-                ? _greeting + ", " + name + "!"
-                : _greeting + ", " + name + ".";
+            string end = _exclamation ? "!" : ".";
+            return _greeting + ", " + name + "!" + end;
         }
     }
 }
