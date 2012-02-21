@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HelloWorld
 {
-    public class Greeter
+    public class Greeter : IGreeter
     {
         protected string _greeting;
 
